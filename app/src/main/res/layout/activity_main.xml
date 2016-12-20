@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context="loadingdata.ashish.sqlitetutorial.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id"/>
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/userid"/>
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="username"/>
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surname"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/surname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marks"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/marks"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:text="Insert"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/viewdata"
+        android:layout_height="wrap_content"
+        android:text="View"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/update"
+            android:layout_height="wrap_content"
+            android:text="Update"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/delete"
+            android:layout_height="wrap_content"
+            android:text="Delete"/>
+    </LinearLayout>
+</LinearLayout>
